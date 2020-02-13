@@ -5,7 +5,7 @@ trap "kill 0" EXIT
 # generate i/o on the system
 while true
 do
-  cp loadfile loadfile1
+  cp /mnt/roshar/loadfile /mnt/roshar/loadfile1
 done
 
 wait
